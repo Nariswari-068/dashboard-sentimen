@@ -1,0 +1,8 @@
+streamlit
+pymongo
+pandas
+altair
+transformers
+torch
+nltk
+sastrawi
