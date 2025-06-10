@@ -14,8 +14,7 @@ stop_words = set(stopwords.words('indonesian'))
 stemmer = StemmerFactory().create_stemmer()
 
 # MongoDB
-mongo_client = MongoClient("mongodb://localhost:27017/")
-db = mongo_client['sentimen_db']
+mongodb+srv://Nariswari-068:<UPNVeteran30>@sentimen.zjoyizd.mongodb.net/db = mongo_client['sentimen_db']
 collection = db['komentar_vasektomi']
 
 # Load IndoBERT sentimen
