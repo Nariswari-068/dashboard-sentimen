@@ -5,7 +5,11 @@ import altair as alt
 
 # --- Koneksi MongoDB ---
 mongo_client = MongoClient("mongodb+srv://Nariswari-068:UPNVeteran30@sentimen.zjoyizd.mongodb.net/")
+<<<<<<< HEAD
 db = mongo_client['sentimen_db']
+=======
+db = client['sentimen_db']
+>>>>>>> f5670aefc9ef2762211a826074859f14629e4b6b
 collection = db['komentar_vasektomi']
 
 # --- Judul dan Header ---
