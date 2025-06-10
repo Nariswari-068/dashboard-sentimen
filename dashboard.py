@@ -4,7 +4,7 @@ import pandas as pd
 import altair as alt
 
 # --- Koneksi MongoDB ---
-client = MongoClient("mongodb://localhost:27017/")
+mongodb+srv://Nariswari-068:<UPNVeteran30>@sentimen.zjoyizd.mongodb.net/
 db = client['sentimen_db']
 collection = db['komentar_vasektomi']
 
