@@ -4,7 +4,7 @@ import json
 from googleapiclient.discovery import build
 import time
 
-API_KEY = 'AIzaSyBPQ9lZXoAE64RGGWpbj6BNFxEzkKt2tL8'
+API_KEY = 'AIzaSyB_U6EjL7rbIUBVOEiv8i-it0ur7sMZAdE'
 VIDEO_IDS = ['MX3EsyJNIAU', '01VzjUUJjkk', 'n6CedDYDCvA']
 
 producer = KafkaProducer(
